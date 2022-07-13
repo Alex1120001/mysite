@@ -1,0 +1,105 @@
+
+
+@media (max-width:960px){
+    .menu-header{
+        background-color: #fff;
+        position: fixed;
+        margin: 0;
+        height: 100%;
+        right: 0;
+        width: 0px;
+        top: 0;
+        transition: .2s;
+        z-index: 99;
+    }
+    .menu-header ul{
+        flex-direction: column;
+    }
+    .menu-header ul li+li{
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    .menu-header ul li a{
+        font-size: 20px;
+    }
+    .close{
+        display: block;
+        cursor: pointer;
+    }
+    .pidmenu ul{
+        display: block;
+        position: relative;
+    }
+    .menu-two li{
+        border:none;
+    }
+    .menu-two li a{
+        font-size: 16px !important;
+    }
+    .icon-burger{
+        display: flex;
+    }
+    .top-footer{
+        flex-direction: column;
+    }
+    .block-footer{
+        display: flex;
+        align-items: center;
+    }
+    .wrap-main-content{
+        grid-template-columns: 100%;
+    }
+    .wrap-main-content .block-desc h1{
+        font-size: 24px;
+    }
+    .block-desc{
+        order: 2;
+    }
+    .block-img{
+        order: 1;
+    }
+    .content-main{
+        background-position: center;
+    }
+    .wrap-main-content{
+        padding-bottom: 20px;
+        padding-top: 85px;
+    }
+    .block-question{
+        grid-template-columns: 100%;
+    }
+    .block-question-one{
+        order: 2;
+    }
+    .block-question-two{
+        order: 1;
+        margin: auto;
+    }
+    .services-block{
+        grid-template-columns: 50% 50%;
+    }
+    .services-description:nth-child(4){
+        padding-left: 10px;
+    }
+    .services-description:nth-child(3){
+        padding-left: 0px;
+    }
+    .services-description:nth-child(5){
+        padding-left: 0px;
+    }
+    .block-projects{
+        grid-template-columns: 100%;
+    }
+}
+
+@media (max-width: 760px){
+    .services-block{
+        grid-template-columns: 100%;
+    }
+    .services-description{
+        padding-left: 0px;
+    }
+    .services-description:nth-child(4){
+        padding-left: 0px;
+    }
+}
